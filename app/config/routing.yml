@@ -1,0 +1,4 @@
+hff_base:
+    resource: "@HFFBaseBundle/Resources/config/routing.yml"
+    prefix:   /
+
