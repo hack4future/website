@@ -70,6 +70,12 @@ body {
     margin-bottom: 10px;
 }
 
+#header hgroup img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 #header ul.navigation {
     list-style: none;
     text-align: right;
@@ -104,20 +110,25 @@ body {
     font-weight: normal;
 }
 
-.main-col {
-    width: 700px;
-    display: inline-block;
-    float: left;
-    border-right: 1px solid #ccc;
-    padding: 20px;
-    margin-bottom: 20px;
+h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+
 }
 
-.sidebar {
+.main-col {
+    width: 700px;
+    padding: 40px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*.sidebar {
     width: 239px;
     padding: 10px;
     display: inline-block;
-}
+}*/
 
 .main-col a {
     color: #F48A00;
@@ -126,9 +137,10 @@ body {
 .main-col h1, .main-col h2 {
     line-height: 1.2em;
     font-size: 32px;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
     font-weight: normal;
     color: #F48A00;
+    text-align: center;
 }
 
 .main-col p {
