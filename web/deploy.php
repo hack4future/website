@@ -9,7 +9,6 @@
 
   // The commands
   $commands = array(
-    'cd ../',
     'echo $PWD',
     'whoami',
     'git pull',
@@ -17,7 +16,7 @@
     'git submodule sync',
     'git submodule update',
     'git submodule status',
-    'php app/console cache:clear --env=prod --no-debug',
+    'php ../app/console cache:clear --env=prod --no-debug',
   );
 
   // Run the commands for output
