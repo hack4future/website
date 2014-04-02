@@ -27,6 +27,21 @@
     display: block;
 }
 
+#header ul.navigation {
+    list-style: none;
+    margin-left: 120px;
+}
+
+#header .navigation li {
+    display: inline
+}
+
+#header .navigation li a {
+    display: inline-block;
+    padding: 10px 15px;
+    border-left: 1px solid #ccc;
+}
+
 .main-col {
     width: 780px;
     padding: 40px;
