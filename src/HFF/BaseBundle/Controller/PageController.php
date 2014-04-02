@@ -15,4 +15,9 @@ class PageController extends Controller
     {
         return $this->render('HFFBaseBundle:Page:about.html.twig');
     }
+
+    public function contactAction()
+    {
+        return $this->render('HFFBaseBundle:Page:contact.html.twig');
+    }
 }

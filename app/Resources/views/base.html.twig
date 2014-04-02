@@ -17,23 +17,18 @@
         <section id="wrapper">
             <header id="header">
                 <div class="top">
-                    {# {% block navigation %}
+                    {% block navigation %}
                         <nav>
                             <ul class="navigation">
                                 <li><a href="{{ path('HFFBaseBundle_homepage') }}">Главная</a></li>
-                                <li><a href="{{ path('HFFBaseBundle_about') }}">О проекте</a></li>
-                                <li><a href="#">Контакты</a></li>
+                                <li><a href="{{ path('HFFBaseBundle_about') }}">О хакатоне</a></li>
+                                <li><a href="{{ path('HFFBaseBundle_contact') }}">Контакты</a></li>
                             </ul>
                         </nav>
-                    {% endblock %} #}
-
-
-
+                    {% endblock %}
                 </div>
 
                 <hgroup>
-                    {# <h2>{% block blog_title %}<a href="{{ path('HFFBaseBundle_homepage') }}">Hack For Future</a>{% endblock %}</h2>
-                    <h3>{% block blog_tagline %}<a href="{{ path('HFFBaseBundle_homepage') }}">hacking for the future</a>{% endblock %}</h3> #}
                     <img class="logo" src="{{ asset('img/head.png') }}" alt="Hack for Future logo" />
                 </hgroup>
             </header>
