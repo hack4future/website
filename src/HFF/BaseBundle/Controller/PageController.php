@@ -20,4 +20,8 @@ class PageController extends Controller
     {
         return $this->render('HFFBaseBundle:Page:contact.html.twig');
     }
+    public function register_projectAction()
+    {
+        return $this->render('HFFBaseBundle:Page:register_project.html.twig');
+    }
 }

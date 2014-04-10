@@ -2,16 +2,16 @@
 
 {% block body %}
     <div class="jumbotron">
-    
+
     HackForFuture: a hackathon for people working on social and educational projects. <a href="/about">About us in English</a>
-    
+
     <p><h3>Что это за событие? </h3>
-    Встреча в формате открытой лаборатории. Хакатон для людей с навыками работы руками и головой. 
+    Встреча в формате открытой лаборатории. Хакатон для людей с навыками работы руками и головой.
     </p>
     <p><h3>Когда?</h3>
     Ближайшая открытая лаборатория откроется 26 апреля-3 мая (следите за новостями <a href="https://www.facebook.com/hackforfuture">в группе в Фейсбуке</a>, а ещё лучше - <a href="http://meetup.us1.list-manage.com/subscribe/post?u=e3b2ab39032af453b70bbdbc1&id=58cf5e94e5">подпишитесь на рассылку</a> )
     </p>
-    
+
     <p>Цель - построение реальных решений на базе открытых технологий и просто эксперименты и фан.
     Ищем ответы проблемам, которые нас окружают: городским, социальным, образовательным, культурным. Будем использовать голову, фантазию, новые материалы и технологии, объекты реального мира: макеты зданий, 3D-принтер, мебель и другие предметы (пример проекта: Mivia).</p>
 
@@ -21,6 +21,12 @@
 
     <p>Если у вас есть идеи или вы уже начали свой социальный проект, но вам не хватает единомышленников или конкретных специалистов, то в нашей лаборатории будущего вы можете найти людей с необходимыми знаниями. Представить проект и собрать команду можно будет во время первого этапа хакатона 9 ноября, и потом засучить рукава и реализовать проект на одном из наших мероприятий.</p>
     <p>Наш Facebook <a href="https://www.facebook.com/hackforfuture">https://www.facebook.com/hackforfuture</a></p>
+
+    <div class="register">
+        <button type="button" class="register-project btn btn-primary btn-lg btn-block"><a href="{{ path('HFFBaseBundle_register_project') }}">Заявить проект</a></button>
+        <button type="button" disabled="disabled" class="btn btn-default btn-lg btn-block">Зарегистрироваться</button>
+    </div>
+
     </div>
 
     <div class="panel-group" id="accordion">
