@@ -67,6 +67,17 @@ div.register {
     color: #F48A00;
 }
 
+.main-col {
+    background-color: #EEE;
+    width:100%;
+    font-size:18px;
+}
+
+.main-col h3 {
+    background-color: #EEE;
+}
+
+
 .main-col a:hover {
     text-decoration: underline;
 }
