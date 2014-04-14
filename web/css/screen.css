@@ -6,7 +6,8 @@
 .jumbotron,
 #accordion,
 #photos,
-.main-col div {
+.main-col div,
+.main-col iframe {
     max-width: 1000px;
     margin: 0 auto;
     padding-top:0;
