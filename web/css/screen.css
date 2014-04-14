@@ -20,7 +20,7 @@
 
 img {
     max-width:100%;
-    
+
 }
 
 #wrapper a {
@@ -76,11 +76,11 @@ div.register {
     margin-top: 30px
 }
 
-#wrapper button.register-project a {
+#wrapper .register a.register-project {
     color: white;
 }
 
-#wrapper button.register-project a:hover {
+#wrapper .register a.register-project:hover {
     text-decoration: none;
 }
 
