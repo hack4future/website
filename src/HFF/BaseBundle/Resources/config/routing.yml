@@ -21,3 +21,9 @@ HFFBaseBundle_register_project:
     defaults: { _controller: HFFBaseBundle:Page:register_project }
     requirements:
         _method:  GET
+
+HFFBaseBundle_register_participant:
+    pattern:  /register-participant
+    defaults: { _controller: HFFBaseBundle:Page:register_participant }
+    requirements:
+        _method:  GET

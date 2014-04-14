@@ -24,4 +24,8 @@ class PageController extends Controller
     {
         return $this->render('HFFBaseBundle:Page:register_project.html.twig');
     }
+    public function register_participantAction()
+    {
+        return $this->render('HFFBaseBundle:Page:register_participant.html.twig');
+    }
 }
