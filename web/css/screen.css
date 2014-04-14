@@ -3,10 +3,18 @@
     width: 100%;
 }
 
-.jumbotron {
-    width: 1000px;
+.jumbotron,
+#accordion,
+#photos,
+.main-col div {
+    max-width: 1000px;
     margin: 0 auto;
     padding-top:0;
+}
+
+img {
+    max-width:100%;
+    
 }
 
 #wrapper a {
