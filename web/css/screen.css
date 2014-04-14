@@ -11,6 +11,11 @@
     max-width: 1000px;
     margin: 0 auto;
     padding-top:0;
+    text-align:left;
+}
+
+#accordion {
+    text-align:center;
 }
 
 img {
@@ -57,12 +62,16 @@ img {
 }
 
 .main-col {
-    width: 780px;
     padding: 40px;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #EEE;
+    width:100%;
+    font-size:18px;
+    text-align:center;
 }
+
 
 div.register {
     margin-top: 30px
@@ -81,11 +90,7 @@ div.register {
     color: #F48A00;
 }
 
-.main-col {
-    background-color: #EEE;
-    width:100%;
-    font-size:18px;
-}
+
 
 .main-col h3 {
     background-color: #EEE;
