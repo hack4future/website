@@ -5,6 +5,9 @@
 # to each configured DirectoryIndex file (e.g. index.php, index.html, index.pl).
 DirectoryIndex app.php
 
+# Permanent URL redirect
+Redirect 301 / hackforfuture.by
+
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
